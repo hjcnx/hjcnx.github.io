@@ -44,7 +44,7 @@ tags: [Agent, 教程, 阿里云]
 
 <a class="btn btn-primary" href="https://hermes-assets.nousresearch.com/Hermes-Setup.exe?build=f3b5b980d615" download>下载 Hermes 安装包（约 8 MB）</a>
 
-安装包托管在海外服务器，如果下载慢或者失败，可能需要梯子；也可以直接去 Nous Research 官网（nousresearch.com）获取最新版。
+安装包托管在海外服务器，如果下载慢或者失败，需要梯子（不会的往下看）；也可以直接去 Nous Research 官网（nousresearch.com）获取最新版。
 
 ## 第四步：把 Key 配置进 Hermes
 
@@ -64,3 +64,28 @@ tags: [Agent, 教程, 阿里云]
 
 ## 附录：搞个梯子/代理
 
+[Steamcommunity 302 Ver.15.0.9 – Dogfight360](https://www.dogfight360.com/blog/18682/)
+
+1. #### 先下载个代理工具，然后进去选中GitHub，点击启动服务，就可以访问GitHub了
+
+![Steamcommunity 302 主界面：勾选 Github 后点右侧「启动服务」](API key申请及配置到Hermes教程/image-20261026000031167.png)
+
+2. #### 去GitHub下载clash verge（最常用的梯子）
+
+https://github.com/clash-verge-rev/clash-verge-rev  
+
+选择最新版下载即可，然后去找个机场买个套餐就行，推荐2块钱一个月，128G。
+
+3. #### 把机场的订阅链接导入 Clash Verge
+
+注册登录机场后，在后台复制你自己的**订阅链接**（一串网址）——注意订阅链接和 API Key 一样属于隐私凭证，**别公开分享，泄露了去机场后台重置**。把它粘贴到下图顶部输入框，点「导入」：
+
+![Clash Verge「订阅」页：订阅链接粘贴到顶部输入框后点「导入」](API key申请及配置到Hermes教程/image-20261026002316528.png)
+
+然后**回到代理选一个可用的节点**，到首页打开「系统代理」开关就行了，你就学会翻墙了！！！
+
+![Clash Verge「首页」：选好节点后打开「系统代理」开关](API key申请及配置到Hermes教程/image-20261026002448856.png)
+
+### 注意：去下方官网申请个自己的订阅，别一直蹭别人的！！！
+
+https://xn--9kqs1lo79d.com/#/register?code=P7w3cGT2
