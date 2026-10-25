@@ -98,6 +98,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: nocturne
 
+# RSS 订阅源（hexo-generator-feed）
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  order_by: -date
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
