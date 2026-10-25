@@ -147,4 +147,41 @@
       if (rafId === null) rafId = requestAnimationFrame(step);
     }, { passive: true });
   }
+  /* ---------- 文章目录（TOC）：桌面端右侧粘性玻璃面板 ---------- */
+  var entry = document.querySelector('.article-entry');
+  var layout = document.getElementById('postLayout');
+  var tocNav = document.getElementById('toc');
+  if (entry && layout && tocNav) {
+    var headings = entry.querySelectorAll('h2, h3');
+    if (headings.length >= 3) {
+      layout.classList.add('toc-on');
+      headings.forEach(function (h, i) {
+        if (!h.id) h.id = 'h-' + (i + 1);
+        var a = document.createElement('a');
+        a.className = 'toc-link toc-' + h.tagName.toLowerCase();
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        a.setAttribute('data-target', h.id);
+        tocNav.appendChild(a);
+      });
+      var links = tocNav.querySelectorAll('.toc-link');
+      var setActive = function () {
+        var current = headings[0];
+        for (var i = 0; i < headings.length; i++) {
+          if (headings[i].getBoundingClientRect().top <= 130) current = headings[i];
+        }
+        links.forEach(function (a) {
+          a.classList.toggle('active', a.getAttribute('data-target') === current.id);
+        });
+      };
+      var spyTicking = false;
+      window.addEventListener('scroll', function () {
+        if (!spyTicking) {
+          spyTicking = true;
+          requestAnimationFrame(function () { spyTicking = false; setActive(); });
+        }
+      }, { passive: true });
+      setActive();
+    }
+  }
 })();

@@ -1,5 +1,6 @@
 <% var post = page; /* Hexo 文章布局中文章对象即 page */ %>
 <section class="page-shell container">
+  <div class="post-layout" id="postLayout">
   <article class="card article-panel reveal" data-delay="0">
     <span class="lumen" aria-hidden="true"></span>
     <div class="card-body">
@@ -32,6 +33,12 @@
       <% } %>
     </div>
   </article>
+
+  <aside class="toc-panel" id="tocPanel" aria-label="文章目录">
+    <p class="toc-title">目录</p>
+    <nav class="toc" id="toc"></nav>
+  </aside>
+  </div>
 
   <%
   /* Hexo 按日期降序排列：post.prev 为较新一篇，post.next 为较早一篇 */

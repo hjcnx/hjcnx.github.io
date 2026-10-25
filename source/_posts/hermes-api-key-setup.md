@@ -21,11 +21,11 @@ tags: [Agent, 教程, 阿里云]
 
 进入页面后，点左下角的「**API-KEY**」按钮：
 
-![阿里云百炼控制台，左下角红箭头处为 API-KEY 入口](API key申请及配置到Hermes教程/image-20261025224032657.png)
+![阿里云百炼控制台，左下角红箭头处为 API-KEY 入口](hermes-api-key-setup/image-20261025224032657.png)
 
 进入 API Key 管理页后，点右上角的「**创建 API-KEY**」：
 
-![API Key 管理页，右上角红箭头处为创建 API-KEY 按钮](API key申请及配置到Hermes教程/image-20261025224126283.png)
+![API Key 管理页，右上角红箭头处为创建 API-KEY 按钮](hermes-api-key-setup/image-20261025224126283.png)
 
 创建成功后会得到一串以 `sk-` 开头的 Key。这里有两件事必须注意：
 
@@ -50,15 +50,15 @@ tags: [Agent, 教程, 阿里云]
 
 **1. 打开自定义模型入口。** 启动 Hermes，在主界面下方的模型下拉菜单里选「**添加自定义模型...**」，会跳转到设置页：
 
-![Hermes 主界面，模型下拉菜单中红箭头处为「添加自定义模型...」](API key申请及配置到Hermes教程/image-20261025233023373.png)
+![Hermes 主界面，模型下拉菜单中红箭头处为「添加自定义模型...」](hermes-api-key-setup/image-20261025233023373.png)
 
 **2. 粘贴 API Key。** 路径是「设置 =》 提供方 =》 API 密钥」，在列表里找到「**Alibaba Cloud DashScope (China)**」，把上面保存的 `sk-` 开头的 Key 粘贴进去；如果默认地址连不上，可以在下方的「base URL override」里填 OpenAI 兼容地址：
 
-![设置 - 提供方 - API 密钥页，Alibaba Cloud DashScope (China) 一栏粘贴密钥](API key申请及配置到Hermes教程/image-20261025233345375.png)
+![设置 - 提供方 - API 密钥页，Alibaba Cloud DashScope (China) 一栏粘贴密钥](hermes-api-key-setup/image-20261025233345375.png)
 
 **3. 选模型。** 回到主界面再打开模型下拉，会多出一大批模型，选一个就可以开始对话了。推荐用 **DeepSeek 系列**，比较省钱——用其他系列的花得很快（亲测）：
 
-![模型下拉中出现 DashScope 的模型列表，右侧为思考开关与推理强度选项](API key申请及配置到Hermes教程/image-20261025233705604.png)
+![模型下拉中出现 DashScope 的模型列表，右侧为思考开关与推理强度选项](hermes-api-key-setup/image-20261025233705604.png)
 
 到这里，恭喜你拥有了一个自己养起来的 AI 助理。后续我在使用中踩到什么坑、折腾出什么新玩法，都会继续更新在这篇教程里。
 
@@ -68,7 +68,7 @@ tags: [Agent, 教程, 阿里云]
 
 1. #### 先下载个代理工具，然后进去选中GitHub，点击启动服务，就可以访问GitHub了
 
-![Steamcommunity 302 主界面：勾选 Github 后点右侧「启动服务」](API key申请及配置到Hermes教程/image-20261026000031167.png)
+![Steamcommunity 302 主界面：勾选 Github 后点右侧「启动服务」](hermes-api-key-setup/image-20261026000031167.png)
 
 2. #### 去GitHub下载clash verge（最常用的梯子）
 
@@ -80,11 +80,11 @@ https://github.com/clash-verge-rev/clash-verge-rev
 
 注册登录机场后，在后台复制你自己的**订阅链接**（一串网址）——注意订阅链接和 API Key 一样属于隐私凭证，**别公开分享，泄露了去机场后台重置**。（可以先用我的 https://cccdd.908970.xyz/api/v1/client/subscribe?token=fbab4790e06ca85c767bced4e3b39af1 开完自己的套餐不要用我的了！）把它粘贴到下图顶部输入框，点「导入」：
 
-![Clash Verge「订阅」页：订阅链接粘贴到顶部输入框后点「导入」](API key申请及配置到Hermes教程/image-20261026002316528.png)
+![Clash Verge「订阅」页：订阅链接粘贴到顶部输入框后点「导入」](hermes-api-key-setup/image-20261026002316528.png)
 
 然后**回到代理选一个可用的节点**，到首页打开「系统代理」开关就行了，你就学会翻墙了！！！
 
-![Clash Verge「首页」：选好节点后打开「系统代理」开关](API key申请及配置到Hermes教程/image-20261026002448856.png)
+![Clash Verge「首页」：选好节点后打开「系统代理」开关](hermes-api-key-setup/image-20261026002448856.png)
 
 ### 注意：去下方官网申请个自己的订阅，别一直蹭别人的！！！
 
