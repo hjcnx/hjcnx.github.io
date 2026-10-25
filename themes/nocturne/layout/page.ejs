@@ -1,0 +1,15 @@
+<section class="page-shell container">
+  <article class="card article-panel reveal" data-delay="0">
+    <span class="lumen" aria-hidden="true"></span>
+    <div class="card-body">
+      <% if (page.title) { %>
+      <header class="article-head">
+        <h1 class="article-title"><%= page.title %></h1>
+      </header>
+      <% } %>
+      <div class="article-entry">
+        <%- page.content %>
+      </div>
+    </div>
+  </article>
+</section>

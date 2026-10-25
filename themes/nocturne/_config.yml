@@ -1,0 +1,52 @@
+# ============================================================
+# Nocturne · 夜航玻璃拟态主题配置
+# ============================================================
+
+# 导航菜单（key = 显示文字，value = 链接）
+menu:
+  文章: /#posts
+  归档: /archives
+  关于: /about
+
+# 首页 Hero
+hero:
+  title: 我的赛博          # 大标题前半段（白色）
+  title_gold: 自留地       # 大标题后半段（香槟金高亮）
+  subtitle: 写代码，也写生活。这里存放我的技术笔记、设计实验，和一些不合时宜的念头——安静，但一直在生长。
+  primary_text: 开始阅读
+  primary_url: /#posts
+  secondary_text: 关于我
+  secondary_url: /about/
+
+# 个人名片（avatar 留空则使用内置的 SVG 字母花押；可填站点内图片路径如 /img/avatar.png）
+profile:
+  name: Hjc
+  handle: "@hjcnx · 独立开发者"
+  bio: 白天造轮子，晚上抬头看月亮。相信好的工具应该像玻璃一样——安静、透明、恰到好处。
+  avatar: ''
+  avatar_alt: Hjc 的头像：深蓝夜空与一轮香槟色的月亮
+  socials:
+    - name: GitHub
+      url: https://github.com/hjcnx
+      icon: github
+    - name: RSS 订阅
+      url: /atom.xml
+      icon: rss
+    - name: 发送邮件
+      url: mailto:hi@hjcnx.dev
+      icon: mail
+
+# 首页数据条（数字为真实统计：文章数 / 标签数 / 自 since 起的运行天数）
+stats:
+  since: '2026-10-01'
+
+# 页脚
+footer:
+  suffix: 保留所有深夜
+  links:
+    - name: RSS
+      url: /atom.xml
+    - name: GitHub
+      url: https://github.com/hjcnx
+    - name: 邮箱
+      url: mailto:hi@hjcnx.dev

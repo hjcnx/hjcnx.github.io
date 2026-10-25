@@ -1,0 +1,24 @@
+<%
+var cardCats = post.categories ? post.categories.toArray() : [];
+var cardText = String(strip_html(post.content)).replace(/\s+/g, '');
+%>
+<a class="card post hoverable reveal" href="<%- url_for(post.path) %>" data-delay="<%= typeof delay !== 'undefined' ? delay : 0 %>">
+  <span class="lumen" aria-hidden="true"></span>
+  <span class="sweep" aria-hidden="true"></span>
+  <div class="card-body">
+    <div class="post-meta">
+      <span class="chip"><%= cardCats.length ? cardCats[cardCats.length - 1].name : '随笔' %></span>
+      <time datetime="<%= date(post.date, 'YYYY-MM-DD') %>"><%= date(post.date, 'YYYY-MM-DD') %></time>
+    </div>
+    <h3><%= post.title || '无标题' %></h3>
+    <p class="excerpt"><%= String(strip_html(post.excerpt || truncate(post.content, { length: 110 }))).trim() %></p>
+    <div class="post-foot">
+      <span class="read">阅读全文
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M4 12h15"/><path d="m13 6 6 6-6 6"/>
+        </svg>
+      </span>
+      <span class="read-time"><%= Math.max(1, Math.round(cardText.length / 400)) %> min</span>
+    </div>
+  </div>
+</a>

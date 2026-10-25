@@ -1,4 +1,5 @@
-node_modules/ 
-public/ 
-db.json 
-.deploy*/ 
+node_modules/
+public/
+db.json
+.deploy*/
+.zcode/

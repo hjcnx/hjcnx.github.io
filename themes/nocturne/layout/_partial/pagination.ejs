@@ -1,0 +1,5 @@
+<% if (typeof page.total !== 'undefined' && page.total > 1) { %>
+<nav class="pagination reveal" data-delay="200" aria-label="分页">
+  <%- paginator({ prev_text: '&larr;', next_text: '&rarr;', mid_size: 1, escape: false }) %>
+</nav>
+<% } %>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="<%= config.language || 'zh-CN' %>">
+<%- partial('_partial/head') %>
+<body>
+
+<!-- 场景：深墨夜景 + 三个柔和光源光斑（玻璃借光的对象） -->
+<div class="scene" aria-hidden="true">
+  <div class="well well-moon" id="well1"></div>
+  <div class="well well-deep" id="well2"></div>
+  <div class="well well-warm" id="well3"></div>
+</div>
+<!-- 2.5% 胶片颗粒 -->
+<div class="grain" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="nav" id="nav">
+  <%- partial('_partial/nav') %>
+</header>
+
+<main id="main">
+  <%- body %>
+</main>
+
+<footer class="site-footer container">
+  <%- partial('_partial/footer') %>
+</footer>
+
+<%- partial('_partial/scripts') %>
+</body>
+</html>

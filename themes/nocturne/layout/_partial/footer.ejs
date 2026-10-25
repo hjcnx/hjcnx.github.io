@@ -1,0 +1,10 @@
+<div class="footer-bar reveal" data-delay="0">
+  <p>© <%= new Date().getFullYear() %> <%= config.title %> · <%= theme.footer.suffix %></p>
+  <% if (theme.footer.links && theme.footer.links.length) { %>
+  <nav class="footer-links" aria-label="社交链接">
+    <% theme.footer.links.forEach(function(link) { %>
+    <a class="footer-link" href="<%- url_for(link.url) %>"<%= link.url.indexOf('//') > -1 ? ' target="_blank" rel="noopener"' : '' %>><%= link.name %></a>
+    <% }) %>
+  </nav>
+  <% } %>
+</div>
