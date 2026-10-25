@@ -29,6 +29,9 @@ profile:
     - name: GitHub
       url: https://github.com/hjcnx
       icon: github
+    - name: 抖音
+      url: https://www.douyin.com/user/MS4wLjABAAAAhpV8R3lP5F9E6DBy_DP565EW1ZmPVaaPak0UF6Eu53E
+      icon: douyin
     - name: RSS 订阅
       url: /atom.xml
       icon: rss
@@ -46,7 +49,9 @@ footer:
   links:
     - name: RSS
       url: /atom.xml
+    - name: 抖音
+      url: https://www.douyin.com/user/MS4wLjABAAAAhpV8R3lP5F9E6DBy_DP565EW1ZmPVaaPak0UF6Eu53E
     - name: GitHub
       url: https://github.com/hjcnx
     - name: 邮箱
-      url: mailto:hi@hjcnx.dev
+      url: mailto:2039491704@qq.com
