@@ -40,10 +40,15 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
+
+# Markdown 渲染：文章资源文件夹图片路径解析（配合 Typora 粘贴截图）
+marked:
+  prependRoot: true
+  postAsset: true
 highlight:
   line_number: true
   auto_detect: false
