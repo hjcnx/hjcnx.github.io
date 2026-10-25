@@ -74,11 +74,11 @@ tags: [Agent, 教程, 阿里云]
 
 https://github.com/clash-verge-rev/clash-verge-rev  
 
-选择最新版下载即可，然后去找个机场买个套餐就行，推荐2块钱一个月，128G。
+选择最新版下载即可，然后去找个机场买个套餐就行，推荐 https://xn--9kqs1lo79d.com/#/register?code=P7w3cGT2  2块钱一个月，128G。
 
 3. #### 把机场的订阅链接导入 Clash Verge
 
-注册登录机场后，在后台复制你自己的**订阅链接**（一串网址）——注意订阅链接和 API Key 一样属于隐私凭证，**别公开分享，泄露了去机场后台重置**。把它粘贴到下图顶部输入框，点「导入」：
+注册登录机场后，在后台复制你自己的**订阅链接**（一串网址）——注意订阅链接和 API Key 一样属于隐私凭证，**别公开分享，泄露了去机场后台重置**。（可以先用我的 https://cccdd.908970.xyz/api/v1/client/subscribe?token=fbab4790e06ca85c767bced4e3b39af1 开完自己的套餐不要用我的了！）把它粘贴到下图顶部输入框，点「导入」：
 
 ![Clash Verge「订阅」页：订阅链接粘贴到顶部输入框后点「导入」](API key申请及配置到Hermes教程/image-20261026002316528.png)
 
