@@ -33,7 +33,7 @@ profile:
       url: /atom.xml
       icon: rss
     - name: 发送邮件
-      url: mailto:hi@hjcnx.dev
+      url: mailto:2039491704@qq.com
       icon: mail
 
 # 首页数据条（数字为真实统计：文章数 / 标签数 / 自 since 起的运行天数）
