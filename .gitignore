@@ -3,3 +3,8 @@ public/
 db.json
 .deploy*/
 .zcode/
+
+# 文章图片：仓库只提交 .webp（原始 PNG/JPG 仅作本地备份，构建时 img-path.js 自动换发）
+source/_posts/**/*.png
+source/_posts/**/*.jpg
+source/_posts/**/*.jpeg
